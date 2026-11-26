@@ -22,8 +22,9 @@ Dataset: *Credit Card Details* (Kaggle).
 6. **Pipeline** con imputación, codificación, escalado y `LogisticRegression`, entrenado solo con train (sin fuga de datos).
 7. **Desbalance de clases** (~10 % rechazadas): comparación de un `DummyClassifier`, la regresión sin pesos y con `class_weight="balanced"`, usando validación cruzada sobre train.
 8. **Métricas** sobre test con la clase positiva = rechazada: accuracy, precision, recall y F1 (más ROC-AUC y PR-AUC).
-9. **Matriz de confusión** interpretada para el negocio, y coeficientes del modelo.
-10. **Conclusiones**: resultados, limitaciones y posibles mejoras.
+9. **Matriz de confusión** interpretada para el negocio, **ajuste del umbral de decisión** (elegido por validación cruzada sobre train según un recall objetivo) y coeficientes del modelo.
+10. **Valoración del modelo** con los criterios de los apuntes (AUC, Average Precision, recall, especificidad, F1/F2): el modelo es modesto, no bueno.
+11. **Conclusiones**: resultados, limitaciones y posibles mejoras.
 
 ## Resultado principal
 
