@@ -43,4 +43,4 @@ El notebook se ejecuta de principio a fin con `random_state=42`, por lo que los 
 
 ## Uso de IA
 
-Se utilizó Claude Code como herramienta de apoyo para revisar y mejorar el notebook. El detalle figura en la última sección del propio notebook.
+Se utilizó Claude Code como herramienta de apoyo para revisar, reorganizar y ampliar el notebook (ajuste del umbral, valoración del modelo y análisis de robustez). Las decisiones sobre qué hacer las tomé yo; Claude Code escribió el código y los textos siguiendo mis indicaciones. El detalle figura en la última sección del propio notebook.
